@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head xmlns:th="http://www.thymeleaf.org">
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+<title>Résultat formulaire</title>
+</head>
+<body>
+<h1>Resultat</h1>
+    <p th:text="'prenom : ' + ${user.firstName}" />
+    <p th:text="'nom: ' + ${user.lastName}" />
+    <a href="/">Soumettre un nouvel utilisateur</a>
+
+</body>
+</html>
